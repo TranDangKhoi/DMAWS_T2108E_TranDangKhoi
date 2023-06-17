@@ -13,6 +13,6 @@ namespace pratical_exam.Models
 		[Required]
 		public string EmployeeDepartment { get; set; }
 
-		public virtual ICollection<ProjectEmployee> ProjectEmployees
+		public virtual ICollection<ProjectEmployee> ProjectEmployees { get; set; }
 	}
 }

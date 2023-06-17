@@ -12,5 +12,7 @@ namespace pratical_exam.Models
 		public DateTime ProjectStartDate { get; set; }
 		[Required]
 		public DateTime? ProjectEndDate { get; set; }
+
+		public virtual ICollection<ProjectEmployee> ProjectEmployees {get; set;}
 	}
 }
